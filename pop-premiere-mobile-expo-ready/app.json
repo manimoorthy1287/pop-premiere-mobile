@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Pop Premiere",
+    "slug": "pop-premiere-mobile",
+    "android": { "package": "com.manimoorthy1287.poppremiere" },
+    "ios": { "bundleIdentifier": "com.manimoorthy1287.poppremiere" },
+    "scheme": "pop-premiere",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
