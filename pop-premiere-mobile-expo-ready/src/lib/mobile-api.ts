@@ -36,6 +36,15 @@ export async function signIn(email: string, password: string): Promise<MobileSes
   return session;
 }
 
+export async function requestPasswordRecovery(email: string): Promise<{ message: string }> {
+  const response = await fetch(`${API}/password-recovery`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email: email.trim() }),
+  });
+  return parseResponse<{ message: string }>(response);
+}
+
 export async function signOut() {
   await SecureStore.deleteItemAsync(SESSION_KEY);
 }
