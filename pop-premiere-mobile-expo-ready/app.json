@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Pop Premiere",
-    "slug": "pop-premiere-mobile",
+    "slug": "pop-premiere",
     "android": {
       "package": "com.manimoorthy1287.poppremiere"
     },
