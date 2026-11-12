@@ -1,0 +1,25 @@
+export const theme = {
+  colors: {
+    background: "#292724",
+    foreground: "#f2ead8",
+    card: "#35322f",
+    cardRaised: "#3c3834",
+    border: "#514d48",
+    input: "#302d29",
+    primary: "#d65a3c",
+    primaryForeground: "#fff8ed",
+    accent: "#efdda0",
+    accentForeground: "#292724",
+    muted: "#aaa49a",
+    success: "#8ac6a0",
+    danger: "#e07b68",
+  },
+  fonts: {
+    body: "Barlow_400Regular",
+    medium: "Barlow_500Medium",
+    semibold: "Barlow_600SemiBold",
+    bold: "Barlow_700Bold",
+    extrabold: "Barlow_800ExtraBold",
+    display: "BebasNeue_400Regular",
+  },
+};
