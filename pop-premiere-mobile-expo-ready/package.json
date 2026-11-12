@@ -3,16 +3,26 @@
   "version": "1.0.0",
   "private": true,
   "main": "expo-router/entry",
-  "scripts": { "start": "expo start", "android": "expo start --android", "ios": "expo start --ios", "web": "expo start --web" },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
   "dependencies": {
     "expo": "latest",
+    "expo-constants": "~58.0.16",
+    "expo-linking": "~58.0.17",
     "expo-router": "latest",
     "expo-secure-store": "latest",
     "expo-status-bar": "latest",
-    "react": "latest",
+    "react": "19.3.0",
     "react-native": "latest",
     "react-native-safe-area-context": "latest",
     "react-native-screens": "latest"
   },
-  "devDependencies": { "@types/react": "latest", "typescript": "latest" }
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "~6.0.3"
+  }
 }
